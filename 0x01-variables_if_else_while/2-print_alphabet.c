@@ -5,11 +5,13 @@
 * this program prints "programming is positive, zero, or negative                     
 * Return: 0
 */
-int main(void){
-  char ch;
-  for(ch='a';ch<='z';ch++)
+int main(void)
+{
+  char alphabet;
+
+  for(alphabet ='a'; alphabet <= 'z'; alphabet++)
   {
-	  putchar(ch);
+	  putchar(alphabet);
   }
   putchar('\n');
   return (0);
