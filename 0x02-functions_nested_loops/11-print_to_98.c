@@ -1,12 +1,12 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_to_98 - prints all natural numbers from input to 98,
+ * print_to_98 - prints natural numbers from input to 98,
  *               in order separated by a comma followed by a space
  *@n: The number to begin counting at.
  */
 
-void print_to_98(int n)
+void print_times_table(int n)
 {
 	if (n >= 98)
 	{
