@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * more_numbers -> printing more integers
+ * main - printing numbers
+ * more_numbers -> printing more integersig
+ * Return: Always success
  */
 void more_numbers(void)
 {
