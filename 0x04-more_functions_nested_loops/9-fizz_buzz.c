@@ -2,10 +2,12 @@
 #include <stdio.h>
 
 /**
- *fizz_buzz -> printing to 100
+ *main - prints the number from 1 to 100. followed
+ *by a new line but for multiples of three prints
+ *Return: Always 0 (success)
  */
 
-void fizz
+int main(void)
 {
 	int x;
 
