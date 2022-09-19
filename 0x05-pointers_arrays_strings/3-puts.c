@@ -1,4 +1,4 @@
-#nclude "main.h"
+#include "main.h"
 /**
  * _puts - prnts a string
  * @str: A pointer to an int that will be changd
