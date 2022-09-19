@@ -3,6 +3,8 @@
 /**
  * _atoi - convert string to an int
  * @s: pointer to a character string
+ *
+ * Return: nothing
  */
 int _atoi(char *s)
 {
