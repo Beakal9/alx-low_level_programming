@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * rev_string - prints a reverse string
- * @s: A pointer to an int that will be changed
- *
- * @Return: void
+ * print_rev -> prnting a string in a reverse
+ * @s: the string to be printed in rev
  */
 void rev_string(char *s)
 {
