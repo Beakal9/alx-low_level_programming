@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- *puts2 - prints very other character in string
- @str: pointer to string
- *
- * Return: void.
+ * puts2 -> puts2 function
+ * @str: str parameter
  */
 void puts2(char *str)
 {
