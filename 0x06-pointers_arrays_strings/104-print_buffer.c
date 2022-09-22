@@ -2,7 +2,7 @@
 /**
  * print_buffer - C function that print containts
  * @b: number of bytes
- * @size: size of the byte
+ * @size: size of the byte of an int
  */
 void print_buffer(char *b, int size)
 {
