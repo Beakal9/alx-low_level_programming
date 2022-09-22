@@ -1,22 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: string
- * Return: returns length as int
- */
-
-int _strlen(cahr *s)
-{
-	int len = 0;
-
-	while (*(s + len) != '\0')
-		len++;
-
-	return (len);
-}
-
-/**
  * cap_string - function that capitalize first character of a word
  * @str: string to capitalize
  * Return: returns the capitalized string
@@ -24,26 +8,21 @@ int _strlen(cahr *s)
 
 char *cap_string(char *str)
 {
-	int index = 0;
+	char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"',
+		'(', ')', '{', '}'};
+	int len = 13;
+	int a = 0, i;
 
-	while (str[++index])
+	while (x[a])
 	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
-		if (str[index - 1] == ' ' ||
-				str[index - 1] == '\t' ||
-				str[index - 1] == '\n' ||
-				str[index - 1] == ',' ||
-				str[index - 1] == ';' ||
-				str[index - 1] == '.' ||
-				str[index - 1] == '!' ||
-				str[index - 1] == '?' ||
-				str[index - 1] == '"' ||
-				str[index - 1] == '(' ||
-				str[index - 1] == ')' ||
-				str[index - 1] == '{' ||
-				str[index - 1] == '}')
-			str[index] -= 32;
+		i = 0;
+		while (i < len)
+		{
+			if ((a == 0 || x[a - 1] == spc[i]) && (x[a] >= 97 && X[a] <= 122))
+				x[a] = x[a] - 32;
+			i++;
+		}
+		a++;
 	}
-	return (str);
+	return (x);
 }
