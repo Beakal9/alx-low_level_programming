@@ -19,5 +19,6 @@ int main(int argc, char *argv[])
 	for (index = 1; index < argc; index++)
 	{
 		multiplication = multiplication * atoi(argv[index]);
+		return (0);
 	}
 }
