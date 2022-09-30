@@ -6,7 +6,7 @@
  */
 int main(int argc, char *argv[])
 {
-	pritf("%s\n", argv[0]);
+	pritf("%d\n", argv[0]);
 	(void)argc;
 	return (0);
 }
