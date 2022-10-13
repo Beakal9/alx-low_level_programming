@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - print opcodes of given machine
- * argc: num of args
- * argv: arg vector
+ * @argc: num of args
+ * @argv: arg vector
  *
  * Return: 0
  */
