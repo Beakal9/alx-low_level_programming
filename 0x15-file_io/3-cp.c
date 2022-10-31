@@ -24,7 +24,7 @@ void error_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * main -check the code for Holberton school students
+ * main - check the code for Holberton school students
  * @argc: number of args
  * @argv: arg vector
  *
